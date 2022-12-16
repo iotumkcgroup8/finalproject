@@ -31,6 +31,52 @@ The gadget was designed to be mounted either on the Pipe or wall. Once the syste
  
 ![WhatsApp Image 2022-12-05 at 7 45 58 PM](https://user-images.githubusercontent.com/120582695/208022524-df593ed7-a882-4d49-b082-6345014752d8.jpeg)
 
+Thus, the design of this gas leakage sensor-based detection system, which can both notify and control, is low cost and innovative. The gas detection system is very proficient, portable, user-friendly, cost-effective, and small in size . 
+It features an analog to digital conversion (ADC) method based on electronic gadgets, which is used to detect gas leakage using mechanical devices in factories, households, gas stations, and vehicles. These are places where detection of gas leaks is an essential concern to evade any kind of danger. 
+This gadget comprises a processing section, which receives the date inputs, processes the data, and then produces an output. Depending on the output information, it then starts a fan and activates a light-emitting diode. 
+concentration of the gas surpasses a certain level, it then activates the buzzer, while also switching off the gas power supply and informing the relevant parties by sending an alert message via the monitoring computer system.
+
+# Pin Connections
+
+![WhatsApp Image 2022-12-05 at 7 47 26 PM](https://user-images.githubusercontent.com/120582695/208022751-373a76ec-5540-4f3c-ba1a-7706af56917e.jpeg)
+
+The gas concentration level for a particular operational area will be stored in the Mat lab “Database Explorer Tool” to make a summary of the gas eminence of this environment or area available for scrutiny, to inform any risk assessment 
+
+ There is an LPG leak detection and alert system. This system triggers the buzzer and shows the severity of the leak to notify persons once the LPG leak is detected. The system is exceptionally simple yet dependable . The design of the gas detector is based on the Internet of Things. The gas detector sensor used in the design will capture the data and upload it into an information cloud. 
+
+If there is gas leakage, the sensor will detect it and sound an alarm with the help of a buzzer. There is an LCD screen to display the leakage, notify the observer, and trigger the exhaust fan in the particular area or section where the gas is leaking, to then extract the leaked gas .
+
+# Arduino ide
+
+![image](https://user-images.githubusercontent.com/120582695/208022912-8967dfe2-4874-4d56-9fa0-1770f96e51f5.png)
+
+![image](https://user-images.githubusercontent.com/120582695/208022996-ff87f416-583f-4e92-8b3d-d140f524dc78.png)
+
+# Google Sheet
+
+![image](https://user-images.githubusercontent.com/120582695/208023057-51252e46-ae70-4708-bec3-e10e7989679c.png)
+
+# Google Script
+
+![image](https://user-images.githubusercontent.com/120582695/208023104-e8517fe1-778d-4462-8d66-5414fe034cc2.png)
+
+VsCode
+
+![image](https://user-images.githubusercontent.com/120582695/208023134-9fa6b446-cfb2-4093-bc73-8f001aa1c52d.png)
+
+![image](https://user-images.githubusercontent.com/120582695/208023151-18d06147-a35e-4bf0-837c-186783359172.png)
+
+Web Page
+
+![image](https://user-images.githubusercontent.com/120582695/208023173-cbc39b4c-d6b0-4cdc-9c62-b46ddfcd2b4d.png)
+
+# OUTCOMES
+
+This Project aimed to construct a system to detect gas leakage, when the concentration of gas is above the amount expected in the environment. 
+When the user activates the system, the Arduino microcontroller reads the presence of gas in the environment. 
+When it detects a concentration above the expected value, the GSM modem receives the data from the Arduino microcontroller and sends an SMS to the owner's mobile phone. 
+To allow communication between the GSM modem and the mobile phone, AT command is used, because the GSM modem can only understand AT commands. Using this, it can communicate with a mobile phone, computer, and the Arduino microcontroller.
+
 
 
 
